@@ -4,7 +4,7 @@
 
 - 提交 Issue、Pull Request（PR）、代码评审前，先读完本文件。
 - 本文件与口头约定冲突时，以本文件为准；与平台（GitHub）强制规则冲突时，以平台规则为准。
-- 仓库处于初始化阶段，第 4 节的检查命令、第 2.4 节的标签需在工具链确定后补齐（见文末「待补充」）。
+- 仓库处于初始化阶段，第 4 节的检查命令、第 2.4 节的优先级与状态标签需在工具链确定后补齐（见文末「待补充」）。
 
 ---
 
@@ -304,7 +304,8 @@ gh pr merge --squash --delete-branch
 ## 待补充（工具链确定后更新）
 
 - [ ] 第 4 节的 lint / build / test 实际命令
-- [ ] 第 2.4 节与仓库实际标签体系对齐
+- [x] 第 2.4 节类型标签已创建（`type: bug/feature/docs/chore/question`）
+- [ ] 第 2.4 节优先级与状态标签待补充（`priority: *`、`status: stale`）
 - [ ] 第 6 节安全联系邮箱
-- [ ] 将附录 A/B 落地为 `.github/ISSUE_TEMPLATE/` 与 `.github/pull_request_template.md`
+- [x] 将附录 A/B 落地为 `.github/ISSUE_TEMPLATE/` 与 `.github/pull_request_template.md`
 - [ ] 为 `main` 开启保护：禁止直接推送、要求 PR 与至少 1 次批准
